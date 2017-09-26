@@ -14,7 +14,7 @@ var interpolatedString = "\(letterVar)uy Fieri weighs \(numberVar) pounds"
 
 
 
-//print(stringVar.count)          Counting Characters
+print(stringVar.characters.count)          //Counting Characters
 
 
 
