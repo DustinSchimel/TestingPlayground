@@ -8,7 +8,7 @@ public class SimpleClass
     
     public init()
     {
-        name = "My name is ....."
+        name = "My name is Dustin"
     }
     
     public func getName() -> String
@@ -27,8 +27,8 @@ public class OtherClass
     
     public init()
     {
-        self.favoriteNumber = Int()
-        self.favoriteWord = String()
+        self.favoriteNumber = Int()                         //assigns to 0
+        self.favoriteWord = String()                        //assigns to ""
     }
     
     public init(favoriteNumber :Int, favoriteWord :String)
